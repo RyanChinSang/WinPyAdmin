@@ -1,0 +1,6 @@
+NOTE: All dates are in the format: dd.mm.yy
+
+v1.0 (30.04.17)
+tldr; Initial Release
+01- Committed inital release to git.
+
