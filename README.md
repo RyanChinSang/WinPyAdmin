@@ -1,5 +1,5 @@
 # WinPyAdmin (WPA- Windows Python Admin)
 
-Inspired by [Preston Landers's work](https://github.com/UAlbanyArchives/ants/blob/master/admin.py).
+Inspired by [Preston Landers' work](https://github.com/UAlbanyArchives/ants/blob/master/admin.py).
 
 A simple python 2.7+ tool for Windows XP SP2+ (and later) to make an elevated python console window with Administrator privileges. This triggers Windows' UAC for user confirmation so as to make the elevated window.
