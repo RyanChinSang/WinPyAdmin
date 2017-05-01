@@ -1,1 +1,7 @@
-1. WPA is old code and needs revision/optimization.
+NOTE: most TODOs are added into the code itself... see there
+
+1. Some parts of WPA needs revision/optimization...
+2. Fix ambiguity with except statement in isUserAdmin()
+3. Find a function to massage command line params (not necessary - would be nice)
+4. Fix unresolved references in imports for shellcon and ShellExecuteEx
+5. Make a better README.md

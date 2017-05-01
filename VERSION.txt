@@ -2,5 +2,25 @@ NOTE: All dates are in the format: dd.mm.yy
 
 v1.0 (30.04.17)
 tldr; Initial Release
-01- Committed inital release to git.
+01- Committed initial release to git.
 
+v1.1a (01.05.17)
+tldr; Added function to hide the elevated window. Clean-up code.
+01- Added modWin(name) function that is able to perform some action on the Window with a string
+    'name' based on the action specified by the optional 'opt' argument.
+    a. modeWin(name) defaults to hiding the Window with the passed string parameter 'name'.
+    b. modWin(name) behaviour can be changed using the 'opt=' argument.
+    c. If 'opt' is not specified, then the behaviour defaults to showing the window normally.
+    d. If 'opt' is incorrectly set, a warning message is printed.
+    NB: all opt actions were taken from win32con.py.
+02- Updated the raise statements from the depreciated syntax.
+03- Removed unnecessary lines of code.
+04- Moved 'import ctypes' statement to the top of file - standard formatting.
+05- Renamed some interior variable names to conform to PEP8.
+    a. For example, cmdLine is now changed to cmd_line.
+    NB: A conscious decision was made to not change the name of functions, despite the fact that
+        they do not conform to PEP8.
+06- Refined exception statements' wording to be more clear.
+07- Added and refined comments to be more clear.
+08- Added various comments with TODOs - to easier locate the lines to be looked at later.
+09- Updated example with modWin().
